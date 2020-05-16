@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+//COMPONENTES
+import App from './components/App';
+import "./global.css"
+// componentDidMount(){
+//   axios.get("https://api.com")
+// }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//DOM div
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const DOMcontainer= document.getElementById("app")
+
+ReactDOM.render(<App/>, DOMcontainer)   

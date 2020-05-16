@@ -1,0 +1,14 @@
+.customCardContainer{
+    /* border: var(--color-borde) solid 2px !important; */
+
+    box-shadow: 0px 0px 68px -25px var(--color-borde);
+
+    background-color: var(--color-tres) !important;
+    border-radius: 5px !important;
+    padding: .2em;
+}
+
+.customCardContainer img{
+    width: 100%;
+    border-radius: 5px !important;
+}

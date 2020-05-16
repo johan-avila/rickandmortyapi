@@ -1,0 +1,38 @@
+.imgContainer {
+  /* border: springgreen solid 2px; */
+  width: auto;
+  height:15em;
+  background-image: url("https://occ-0-526-987.1.nflxso.net/dnm/api/v6/TsSRXvDuraoJ7apdkH6tsHhf-ZQ/AAAABWvcCE9czzpucMfdp5zcd1DoEYp1kvKmqA9pFjGGS6fjz5NbyXAtOpsgI-r52MIjv_HmyR6FP_YoMpgdilhG4bAqL7UazR0NdLn-.png?r=a6e");
+  background-color: var(--color-dos); /* Used if the image is unavailable */
+  /* height: 500px; You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image*/
+  /* background-size: cover; */
+  background-size: contain;
+}
+.columnasContainer {
+  /* border: red solid 5px; */
+  width: auto;
+  height: 50em !important;
+/* padding: 2em 5em; */
+}
+
+/* .columnaIzq { */
+  /* width: 20%; */
+  /* height: 2em; */
+  /* height: 25em; */
+  /* border: blue 2px solid; */
+  /* background-color: blue; */
+  /* overflow-y: auto; */
+  /* position: relative; */
+  /*Estilos estándar experimentales (Principalmente Firefox)*/
+  /* scrollbar-color: rgba(0, 0, 0, 0.719) rgba(0, 0, 0, 0); */
+  /* scrollbar-width: thin; */
+/* } */
+
+/* .columnaDer {
+  width: 80%;
+  height: auto; */
+  /* height: 25em; */
+  /* border: red 2px solid;
+} */

@@ -1,0 +1,27 @@
+nav {
+  background-color: black;
+  width: auto;
+  height: 2em;
+  margin: 0;
+  padding: 1em;
+}
+.NavIzq a {
+  color: white;
+  padding: 0 0 0 1em;
+  text-decoration: none;
+  font-size: var(--font-size-dos);
+  /* border: 2px solid red; */
+}
+.NavIzq {
+  width: 100%;
+  /* border: solid 2px blue; */
+}
+.NavDer {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .NavIzq a {
+    padding: 0em;
+  }
+}
