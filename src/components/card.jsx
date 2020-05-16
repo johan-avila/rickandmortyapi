@@ -7,10 +7,10 @@ class Card extends React.Component {
         return (
 
             <div className="col-6 col-md-3">
-                <div className=" mt-3 customCardContainer">
+                <div className=" my-3 customCardContainer">
                     <img src={this.props.imgSrc} alt={this.props.imgAlt} />
-                    <div>
-                        <p>Name:{this.props.title}</p>
+                    <div className="footerCard">
+                        Name:{this.props.title}
                     </div>
                 </div>
             </div>
